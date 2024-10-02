@@ -180,17 +180,14 @@
                   <Pin Id="Tsf2hH2MDxEO9qowqDNTdc" Name="Input" Kind="StateInputPin" />
                   <Pin Id="HTfAlYBotGNN6SnlKAXN60" Name="Value" Kind="OutputPin" />
                 </Node>
-                <Pad Id="Sa0yZ5TpMUxN9oQlNAqdCv" Comment="Timeout" Bounds="611,158,56,15" ShowValueBox="true" isIOBox="true" Value="100000">
-                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-                    <Choice Kind="TypeFlag" Name="Integer32" />
-                  </p:TypeAnnotation>
-                </Pad>
               </Patch>
               <ControlPoint Id="QBWboaTFymHObcRatIIpuh" Bounds="405,735" Alignment="Bottom" />
               <ControlPoint Id="IxTiuKu2V3qNFZxjyHjRNE" Bounds="405,79" Alignment="Top" />
               <ControlPoint Id="JB5Ypq6E8w1Mzq35942sbe" Bounds="427,79" Alignment="Top" />
               <ControlPoint Id="M1hi7QaEFxbNXKYO1LmCFh" Bounds="443,735" Alignment="Bottom" />
               <ControlPoint Id="BrzAW9sae5wNxFqY8OlFVH" Bounds="513,735" Alignment="Bottom" />
+              <ControlPoint Id="GxlQTjPOUMsME3f1NqFXZF" Bounds="489,79" Alignment="Top" />
+              <ControlPoint Id="AzSRFiXcojYPOqX5HMNcT2" Bounds="622,79" Alignment="Top" />
             </Node>
             <ControlPoint Id="EhMjUkx53p2Poy21nrDqEY" Bounds="406,2" />
             <Node Bounds="398,788,65,19" Id="IaxT6it7g11OP9agD9qkQj">
@@ -612,13 +609,17 @@
               </p:ValueBoxSettings>
             </Pad>
             <ControlPoint Id="J3UiYJSEDaIQWQXnEusI1j" Bounds="129,1306" />
+            <ControlPoint Id="LENlnKszTgOQSzTiYyRn8N" Bounds="507,38" />
+            <ControlPoint Id="TiiO7sX6xPFOKQC3ACxnWR" Bounds="619,35" />
           </Canvas>
           <Patch Id="ImsgshyV2VGOHwQNusGeu3" Name="Update" ManuallySortedPins="true">
-            <Pin Id="NykgAyEmVhkMSgYJun94Ue" Name="Port Name" Kind="InputPin" DefaultValue="">
+            <Pin Id="NykgAyEmVhkMSgYJun94Ue" Name="Port Name" Kind="InputPin" DefaultValue="COM3">
               <p:TypeAnnotation LastCategoryFullName="IO.Ports" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="TypeFlag" Name="ComPort" />
               </p:TypeAnnotation>
             </Pin>
+            <Pin Id="FIpJzZBwnctMkNNVE2KlZz" Name="Baud Rate" Kind="InputPin" DefaultValue="115200" />
+            <Pin Id="OoO6Bqt44NxPH2qm6oRb3n" Name="Timeout" Kind="InputPin" DefaultValue="10000" />
             <Pin Id="B4VKiw53vAxL5KwKQzw796" Name="Scaling" Kind="InputPin" DefaultValue="0.001" />
             <Pin Id="PCeRtwEz0U3P74sBD2oys9" Name="Scan" Kind="InputPin" DefaultValue="True" />
             <Pin Id="S21RHmnd6aQQUAVG2zpikN" Name="Enabled" Kind="InputPin" />
@@ -695,7 +696,6 @@
           <Link Id="UFobvbV6leJMs0WmgbFPiC" Ids="I9tCpMnQC8GOfLy8k4636k,SGEy4hibULiM1Z4zFdSnTU" />
           <Link Id="P7IcAl2wD5qLaKcUHc7Mvr" Ids="AWD6jh9GI1WQXxksY7DNfs,KmWoRWGEAbCOPiYe9NuMKP" />
           <Link Id="RvpQRuvJAhbMVjIyBZBKRO" Ids="B4VKiw53vAxL5KwKQzw796,AWD6jh9GI1WQXxksY7DNfs" IsHidden="true" />
-          <Link Id="OlY15qWfD3BQJ0DaItMOY6" Ids="Sa0yZ5TpMUxN9oQlNAqdCv,QDLeO8TaCDoN8Qrtj3C9rg" />
           <Link Id="LNpxsotOicUMeQqHDFIuck" Ids="HnN5vzDEWtXNfY6wtIfKW5,CLHfZJjmIzuNxjpaxxxhju" />
           <Link Id="B6mfiCJuaMQOMqXVPp8az1" Ids="HnN5vzDEWtXNfY6wtIfKW5,OxP88YpMBhVMvUjySEa5Zz" />
           <Link Id="BnTfBLe5vAMPerCDKAs7BJ" Ids="HIyjCMapFaQM3d4xxJHeoC,Oo0ShZ5ofiZOwXBJTiQ3u2" IsFeedback="true" />
@@ -721,6 +721,12 @@
           <Link Id="NIBCktaUIsnOtJUZcT5gwQ" Ids="UheGYyUYyZsO4Ienv8hZme,DI95g1WZ7s1LjGRa9z3wB6" />
           <Link Id="Baz7pDj4QRcLRFOni7pwju" Ids="LQVqDKZDgcGP8JnGzXZBSh,J3UiYJSEDaIQWQXnEusI1j" />
           <Link Id="Jsc6EQV1ah5M5pDgN7pxQz" Ids="J3UiYJSEDaIQWQXnEusI1j,DaK6CS4qwdVOKzkTrpHxjx" IsHidden="true" />
+          <Link Id="QbIwFex3iYaQKxZpOrpXWd" Ids="GxlQTjPOUMsME3f1NqFXZF,LoQeDCvNwvXQHfsJ66saPb" />
+          <Link Id="DtlLSZ62jccMqAtq3JzcMo" Ids="LENlnKszTgOQSzTiYyRn8N,GxlQTjPOUMsME3f1NqFXZF" />
+          <Link Id="AuLzcyd3sA4NFEWmUgsAQH" Ids="FIpJzZBwnctMkNNVE2KlZz,LENlnKszTgOQSzTiYyRn8N" IsHidden="true" />
+          <Link Id="PdVtRJ2RuEYQZWeTCNight" Ids="AzSRFiXcojYPOqX5HMNcT2,QDLeO8TaCDoN8Qrtj3C9rg" />
+          <Link Id="NzlhOQwOX7YLkwnUlsiau1" Ids="TiiO7sX6xPFOKQC3ACxnWR,AzSRFiXcojYPOqX5HMNcT2" />
+          <Link Id="IqKTHbh11lyOtyGmKc7lNq" Ids="OoO6Bqt44NxPH2qm6oRb3n,TiiO7sX6xPFOKQC3ACxnWR" IsHidden="true" />
         </Patch>
       </Node>
       <Pad Id="ACl9BMApSY6Ovuis8JQP8H" Bounds="451,123,238,19" ShowValueBox="true" isIOBox="true" Value="https://bucket-download.slamtec.com/6957283725b66750890024d1f0d12940fa079e06/LR002_SLAMTEC_rplidar_sdk_v2.0_en.pdf">
