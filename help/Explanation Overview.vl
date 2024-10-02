@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" xmlns:r="reflection" Id="Fb82KdtkBXlMb6KeMCmoOi" LanguageVersion="2024.6.7-0181-gdf16f593e1" Version="0.128">
+  <NugetDependency Id="V5Y6NXxV8SxNelSJIhFmES" Location="VL.CoreLib" Version="2024.6.7-0181-gdf16f593e1" />
+  <Patch Id="EhiLWYqksx4PA1STtVIn1q">
+    <Canvas Id="DRE9090862PLSlgQz8tGYb" DefaultCategory="Main" CanvasType="FullCategory" />
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="AUG8FKHHtBaPXZzWVXf2Or">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <CategoryReference Kind="Category" Name="Primitive" />
+      </p:NodeReference>
+      <Patch Id="Np2R00enbdsOwdXcdVRmSJ">
+        <Canvas Id="U46yhbwd53fMUYlVTA4WTz" CanvasType="Group">
+          <Node Bounds="143,188,65,19" Id="P6lWJCqWqbsQGezq6uDadC">
+            <p:NodeReference LastCategoryFullName="Main" LastDependency="callmenames-2024-10-01_02.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessNode" Name="RPLidar" />
+            </p:NodeReference>
+            <p:HelpFocus p:Assembly="VL.Lang" p:Type="VL.Model.HelpPriority">High</p:HelpFocus>
+            <Pin Id="MU89dxfve0eNpoIxvOarPz" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="JnIolCbESWXPv2lcPbVLBO" Name="Port Name" Kind="InputPin" />
+            <Pin Id="ESyoTucCEnON5yz7l0XTnV" Name="Scaling" Kind="InputPin" />
+            <Pin Id="UGCgsgcdDJ5Mw9SlXyFnI6" Name="Scan" Kind="InputPin" />
+            <Pin Id="FOQNwLpOaGwNIumrQdHHtU" Name="Enabled" Kind="InputPin" />
+            <Pin Id="BUbMAdkcFi7QWlEn6gWKa0" Name="Result" Kind="OutputPin" />
+            <Pin Id="Rc74yTEGqBxLuGApCYJYZS" Name="Device Info" Kind="OutputPin" />
+            <Pin Id="AWevrPNcDckOEC5haa67RB" Name="Estimated Motor Speed" Kind="OutputPin" />
+          </Node>
+          <Pad Id="KcFjXUYy8sCLAxrtWa9fmw" Comment="Port Name" Bounds="145,75,57,15" ShowValueBox="true" isIOBox="true" Value="COM10">
+            <p:TypeAnnotation LastCategoryFullName="IO.Ports" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="ComPort" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="OZsz5vrKbv0NYKGr4YggbP" Comment="Enabled" Bounds="269,135,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Node Bounds="143,518,125,19" Id="GblfBCXvMbcOLJvJXQiEfk">
+            <p:NodeReference LastCategoryFullName="Graphics.Skia" LastDependency="VL.Skia.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Renderer" />
+            </p:NodeReference>
+            <Pin Id="TtZwAkgB6L6POCKCVeBp0T" Name="Bounds" Kind="InputPin" DefaultValue="1110, 107, 616, 439" IsHidden="true" />
+            <Pin Id="E4T12eGHLfyM8JKHktXwh2" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
+            <Pin Id="OtdWdAyA5IQPkiAnqvkqGy" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
+            <Pin Id="EjOusmlA2cdMmVkEAES3UR" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="LJqrArITz7wO6V6NxWjNwe" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
+            <Pin Id="Ios6m2PfTeEPj0lM3z2HIu" Name="Input" Kind="InputPin" />
+            <Pin Id="I01u14EXDB7MedsaLVi0Qn" Name="Color" Kind="InputPin" />
+            <Pin Id="JJn5f8YNQ2cPWilmVC2qmA" Name="Clear" Kind="InputPin" />
+            <Pin Id="EKVO6edjlmFLsllWmc7GqG" Name="Space" Kind="InputPin" />
+            <Pin Id="RFsCHL9YJwPLgNHQP3sKQm" Name="Show Cursor" Kind="InputPin" />
+            <Pin Id="HRnAbz2cEaJLBQphCMM8gZ" Name="VSync" Kind="InputPin" />
+            <Pin Id="CN2DQq9us9wMg2AiheMyhr" Name="Commands" Kind="InputPin" IsHidden="true" />
+            <Pin Id="VkFGaKPFLMrO9xEOVZApdg" Name="Enable Keyboard Shortcuts" Kind="InputPin" IsHidden="true" />
+            <Pin Id="BbfO4tKz8tENV58VK0Nyia" Name="Enabled" Kind="InputPin" />
+            <Pin Id="ALAC4NPmX43OmY5139eYr6" Name="Form Bounds Notifications" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="CGpXBwBBf1oQbkVmH2ULfj" Name="Form" Kind="OutputPin" />
+            <Pin Id="F2YRP3e180rP1Y7Y3fmnlF" Name="ClientBounds" Kind="OutputPin" />
+            <Pin Id="N4viXE2xLQpNHuqrxPGIBu" Name="Render Time" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="143,439,85,19" Id="KVeavuVzeVBNnl7e57VABK">
+            <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastDependency="VL.Skia.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="Layers" NeedsToBeDirectParent="true" />
+              <Choice Kind="ProcessAppFlag" Name="Points" />
+            </p:NodeReference>
+            <Pin Id="GKv4uJUsy6xMKd5JlBwcKP" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="AjHtXXTKnzVP2Yso26AfNl" Name="Points" Kind="InputPin" />
+            <Pin Id="PuV4rWvxSS2QGi0TkaNmqx" Name="Size" Kind="InputPin" />
+            <Pin Id="QLUYkCDBzXHOJk769tDUWV" Name="Shape" Kind="InputPin" />
+            <Pin Id="CNLdOQzUrEbMZR7IdslCRp" Name="Paint" Kind="InputPin" />
+            <Pin Id="OPqWRCuMwENO4ZyZJWw5eM" Name="Enabled" Kind="InputPin" />
+            <Pin Id="BM3vCsSOR1DPnrpzyImBNg" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="143,488,125,19" Id="TTzuzLHJH4VMEYlYMImynW">
+            <p:NodeReference LastCategoryFullName="Graphics.Skia.Transform" LastDependency="VL.Skia.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Camera" />
+            </p:NodeReference>
+            <Pin Id="JTbYk6OL66LNVn23iCFBTI" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="BNwJhyuJ13GN458vcknN4m" Name="Input" Kind="InputPin" />
+            <Pin Id="RxaKaNDj4SOPXh9S9Yumb8" Name="Initial Translate" Kind="InputPin" />
+            <Pin Id="MUoKu5i2eMePEIZRMRbJXP" Name="Initial Zoom" Kind="InputPin" />
+            <Pin Id="LlW3L8Rtae0LKcY1BWnatw" Name="Zoom Speed" Kind="InputPin" />
+            <Pin Id="H4By9ZJXfw3LowVPkl8rBF" Name="Minimum Zoom" Kind="InputPin" />
+            <Pin Id="BYryRdD7yOiMBtIrBH8YiP" Name="Maximum Zoom" Kind="InputPin" />
+            <Pin Id="E82LVdhCkz4OMXOUA235Iz" Name="Reset" Kind="InputPin" />
+            <Pin Id="VsxDA16dgRUPDc9Ac0XAj9" Name="Output" Kind="OutputPin" />
+            <Pin Id="QCOWIGNOnQwOhnJbQvIWfs" Name="Zoom" Kind="OutputPin" />
+            <Pin Id="VICvUFEBVs5MS4m28VVQ9n" Name="Idle" Kind="OutputPin" />
+          </Node>
+          <Pad Id="EmU8dmFArX9PFgZl6kkRCN" Comment="Device Info" Bounds="177,258,286,62" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="VUrf8KvubdZO0BlKh1LP21" Comment="Scan" Bounds="187,131,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Node Bounds="143,335,65,19" Id="KdcRiAcegUjOLtUAOHlBPG">
+            <p:NodeReference LastCategoryFullName="Reactive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="HoldLatest" />
+            </p:NodeReference>
+            <Pin Id="JBl8ITfo6tqMSivRvPr7eb" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="BhoRo00feCIP5hflRpzwIM" Name="Initial Result" Kind="InputPin" IsHidden="true" />
+            <Pin Id="JjhytDAyyVUMNN1mfwrcyj" Name="Async Notifications" Kind="InputPin" />
+            <Pin Id="JEQDhgFBksEQN7SPdtBNLk" Name="Reset" Kind="InputPin" />
+            <Pin Id="OIj5UjJZc1YMi3NP5wJ8LO" Name="Value" Kind="OutputPin" />
+            <Pin Id="Ej10KLY4yKwLnrPs9fGequ" Name="On Data" Kind="OutputPin" />
+          </Node>
+          <Pad Id="VjkH0KOUoRRPm4mxZn3EPC" Comment="On Data" Bounds="204,383,35,35" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="UF0hYMeeCNqMqUS9MYQ9n0" Comment="Estimated Motor Speed" Bounds="206,232,41,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="FwJON1sozBYL8rSAbhGrkF" Comment="Scaling" Bounds="165,101,44,15" ShowValueBox="true" isIOBox="true" Value="0.001">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:precision p:Type="Int32">4</p:precision>
+              <p:stepsize p:Type="Single">0.01</p:stepsize>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="REri0xyV7Y4Nxa7iOEagMV" Bounds="368,440,325,19" ShowValueBox="true" isIOBox="true" Value="https://www.nuget.org/packages/VL.DBSCAN">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="UZlzf3LL3XpMsmZFf144v9" Bounds="368,462,309,19" ShowValueBox="true" isIOBox="true" Value="https://www.nuget.org/packages/VL.TrackObjects">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Link</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="F20Vnn0u56sQKMBDaA0q9F" Bounds="368,417,194,19" ShowValueBox="true" isIOBox="true" Value="For Blobtracking combine with:">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+        </Canvas>
+        <Patch Id="VQ03JHOiNJ2MKwdCwZ2kEg" Name="Create" />
+        <Patch Id="VUhWUKG80d4QcoVSLYgxc4" Name="Update" />
+        <ProcessDefinition Id="FJh0kUlCvX8P9Mke4wuMul">
+          <Fragment Id="JQ1x0No9qNDOT6fevivoxx" Patch="VQ03JHOiNJ2MKwdCwZ2kEg" Enabled="true" />
+          <Fragment Id="V8jf2vQsU6nQLXGFnpi5bZ" Patch="VUhWUKG80d4QcoVSLYgxc4" Enabled="true" />
+        </ProcessDefinition>
+        <Link Id="EwroDPu9TVVPo7uqVx31sw" Ids="KcFjXUYy8sCLAxrtWa9fmw,JnIolCbESWXPv2lcPbVLBO" />
+        <Link Id="IRCD6xoLXQAPoBPcXii2cw" Ids="OZsz5vrKbv0NYKGr4YggbP,FOQNwLpOaGwNIumrQdHHtU" />
+        <Link Id="C1ycYF7M8PFOLhSy4o8mCj" Ids="BM3vCsSOR1DPnrpzyImBNg,BNwJhyuJ13GN458vcknN4m" />
+        <Link Id="COlA8qmTV7fOAYQl9SPiGX" Ids="VsxDA16dgRUPDc9Ac0XAj9,Ios6m2PfTeEPj0lM3z2HIu" />
+        <Link Id="TLzpKYY6RJiMZplnUqZZ4l" Ids="Rc74yTEGqBxLuGApCYJYZS,EmU8dmFArX9PFgZl6kkRCN" />
+        <Link Id="N2AKgjrPHmgP0AiiIeIgHh" Ids="VUrf8KvubdZO0BlKh1LP21,UGCgsgcdDJ5Mw9SlXyFnI6" />
+        <Link Id="BudAZ0NL5lwLNaFUH99Gdb" Ids="Ej10KLY4yKwLnrPs9fGequ,VjkH0KOUoRRPm4mxZn3EPC" />
+        <Link Id="PVoeVqFJ13ZLcLwmSXPcG2" Ids="BUbMAdkcFi7QWlEn6gWKa0,JjhytDAyyVUMNN1mfwrcyj" />
+        <Link Id="U0StvRxFvW0OZt5SUHQZOF" Ids="OIj5UjJZc1YMi3NP5wJ8LO,AjHtXXTKnzVP2Yso26AfNl" />
+        <Link Id="RZJwdCtvxJANMOT5YEQ9WB" Ids="AWevrPNcDckOEC5haa67RB,UF0hYMeeCNqMqUS9MYQ9n0" />
+        <Link Id="HUHBiThkGjgOVaXjQ1z1fI" Ids="FwJON1sozBYL8rSAbhGrkF,ESyoTucCEnON5yz7l0XTnV" />
+      </Patch>
+    </Node>
+  </Patch>
+  <NugetDependency Id="PYNQDKGqWq3Lo5hYuSMJqC" Location="RPLidar4Net.Api" Version="0.2.0" />
+  <NugetDependency Id="N3VWXd4nLsOO0XRcadqFlS" Location="RPLidar4Net.Core" Version="0.3.0" />
+  <NugetDependency Id="Eznell8XgEhOZSz9fe6Ell" Location="RPLidar4Net.IO" Version="0.3.0" />
+  <NugetDependency Id="Vww2yCurqPxLxo6VVSHnYJ" Location="VL.Devices.RPLidar" Version="0.0.0" />
+  <NugetDependency Id="BqT2EqCcb1IQSqUYFc1NNw" Location="VL.Skia" Version="2024.6.7-0181-gdf16f593e1" />
+</Document>
