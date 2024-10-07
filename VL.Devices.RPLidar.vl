@@ -15,7 +15,7 @@
         </p:NodeReference>
         <Patch Id="Etukncv7DHxNCpFUGw3A1g">
           <Canvas Id="StWIAZzgqOsNYTDQJoEDDg" CanvasType="Group">
-            <Node Bounds="366,73,382,668" Id="KdnROBixCoaNa6usNDyvD4">
+            <Node Bounds="366,52,382,689" Id="KdnROBixCoaNa6usNDyvD4">
               <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <CategoryReference Kind="Category" Name="Primitive" />
@@ -81,7 +81,7 @@
                     </Node>
                   </Patch>
                 </Node>
-                <Node Bounds="463,133,80,26" Id="MadO73pN0GAPV33mMRy2N1">
+                <Node Bounds="512,102,80,26" Id="MadO73pN0GAPV33mMRy2N1">
                   <p:NodeReference LastCategoryFullName="Reactive.Disposables.SerialDisposable" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="ClassType" Name="SerialDisposable" NeedsToBeDirectParent="true" />
@@ -91,14 +91,14 @@
                   <Pin Id="JCRjay1075dMOkZZvmtjCt" Name="Value" Kind="InputPin" />
                   <Pin Id="T0QvwmtyjoTNytITtmaZ3s" Name="Output" Kind="StateOutputPin" />
                 </Node>
-                <Node Bounds="538,100,40,19" Id="TOIRqH4L0qIOIgNM9MPbu2">
+                <Node Bounds="606,75,40,19" Id="TOIRqH4L0qIOIgNM9MPbu2">
                   <p:NodeReference LastCategoryFullName="Primitive.Object" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="NULL" />
                   </p:NodeReference>
                   <Pin Id="RlqKvLtW59aOeJHOGh5933" Name="Result" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="389,179,125,240" Id="EXF53NCdCKCOdDxBGuBgi6">
+                <Node Bounds="389,141,146,272" Id="EXF53NCdCKCOdDxBGuBgi6">
                   <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <CategoryReference Kind="Category" Name="Primitive" />
@@ -130,7 +130,7 @@
                       <Pin Id="Jo9EJ62HuFuPBmgQGdAdjr" Name="Input" Kind="StateInputPin" />
                       <Pin Id="SOZZsbG0nHhMd1HBnjuZIZ" Name="Output" Kind="StateOutputPin" />
                     </Node>
-                    <Node Bounds="408,353,86,26" Id="RQEI61J7EO9ONqWyO0Uiaa">
+                    <Node Bounds="437,354,86,26" Id="RQEI61J7EO9ONqWyO0Uiaa">
                       <p:NodeReference LastCategoryFullName="RPLidar4Net.IO.RPLidarSerialDevice" LastDependency="RPLidar4Net.IO.dll">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="NewScan" />
@@ -149,17 +149,24 @@
                       <Pin Id="HnN5vzDEWtXNfY6wtIfKW5" Name="Output" Kind="OutputPin" />
                       <Pin Id="IAD6GKBcXvUPqQbAxY4Qlk" Name="Info" Kind="OutputPin" />
                     </Node>
+                    <Node Bounds="403,164,67,26" Id="EQJF0TtfjXvMI9xPRKqP0b">
+                      <p:NodeReference LastCategoryFullName="Primitive.DynamicEnum" LastDependency="VL.CoreLib.vl">
+                        <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                        <FullNameCategoryReference ID="Primitive.DynamicEnum" />
+                        <Choice Kind="OperationCallFlag" Name="Value" />
+                      </p:NodeReference>
+                      <Pin Id="Tsf2hH2MDxEO9qowqDNTdc" Name="Input" Kind="StateInputPin" />
+                      <Pin Id="HTfAlYBotGNN6SnlKAXN60" Name="Value" Kind="OutputPin" />
+                    </Node>
                   </Patch>
-                  <ControlPoint Id="EH8AiIIUV8FOghvPnRX73F" Bounds="467,185" Alignment="Top" />
-                  <ControlPoint Id="S1qB8b9T6hMNUEqVP208jO" Bounds="497,413" Alignment="Bottom" />
-                  <ControlPoint Id="OxP88YpMBhVMvUjySEa5Zz" Bounds="403,413" Alignment="Bottom" />
-                  <ControlPoint Id="SFbLRpliLNbOLdTL3BBfqt" Bounds="409,185" Alignment="Top" />
-                  <ControlPoint Id="L969bzSFjUNOCuaXOwGCb0" Bounds="472,413" Alignment="Bottom" />
-                  <ControlPoint Id="QYkWEhlOaAhN9ULIKiKrUJ" Bounds="446,185" Alignment="Top" />
-                  <ControlPoint Id="IAshIjSsuC2NZpTIbia3eS" Bounds="437,413" Alignment="Bottom" />
-                  <ControlPoint Id="EDgHe1mO9c9LLpBDWaF2l7" Bounds="432,185" Alignment="Top" />
-                  <ControlPoint Id="Oo0ShZ5ofiZOwXBJTiQ3u2" Bounds="448,413" Alignment="Bottom" />
-                  <ControlPoint Id="HIyjCMapFaQM3d4xxJHeoC" Bounds="462,185" Alignment="Top" />
+                  <ControlPoint Id="EH8AiIIUV8FOghvPnRX73F" Bounds="513,147" Alignment="Top" />
+                  <ControlPoint Id="S1qB8b9T6hMNUEqVP208jO" Bounds="512,407" Alignment="Bottom" />
+                  <ControlPoint Id="OxP88YpMBhVMvUjySEa5Zz" Bounds="403,407" Alignment="Bottom" />
+                  <ControlPoint Id="SFbLRpliLNbOLdTL3BBfqt" Bounds="409,147" Alignment="Top" />
+                  <ControlPoint Id="IAshIjSsuC2NZpTIbia3eS" Bounds="437,407" Alignment="Bottom" />
+                  <ControlPoint Id="EDgHe1mO9c9LLpBDWaF2l7" Bounds="432,147" Alignment="Top" />
+                  <ControlPoint Id="Oo0ShZ5ofiZOwXBJTiQ3u2" Bounds="460,407" Alignment="Bottom" />
+                  <ControlPoint Id="HIyjCMapFaQM3d4xxJHeoC" Bounds="473,147" Alignment="Top" />
                 </Node>
                 <Node Bounds="526,688,80,26" Id="GnsekTzQOHTLRImhET1NDZ">
                   <p:NodeReference LastCategoryFullName="Reactive.Disposables.SerialDisposable" LastDependency="VL.CoreLib.vl">
@@ -171,23 +178,14 @@
                   <Pin Id="U3imCPgLcW4NPxo55SWbVc" Name="Value" Kind="InputPin" />
                   <Pin Id="DoT1Bzy7A4OOwCPM5TSwZ4" Name="Output" Kind="StateOutputPin" />
                 </Node>
-                <Node Bounds="389,132,67,26" Id="EQJF0TtfjXvMI9xPRKqP0b">
-                  <p:NodeReference LastCategoryFullName="Primitive.DynamicEnum" LastDependency="VL.CoreLib.vl">
-                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <FullNameCategoryReference ID="Primitive.DynamicEnum" />
-                    <Choice Kind="OperationCallFlag" Name="Value" />
-                  </p:NodeReference>
-                  <Pin Id="Tsf2hH2MDxEO9qowqDNTdc" Name="Input" Kind="StateInputPin" />
-                  <Pin Id="HTfAlYBotGNN6SnlKAXN60" Name="Value" Kind="OutputPin" />
-                </Node>
               </Patch>
               <ControlPoint Id="QBWboaTFymHObcRatIIpuh" Bounds="405,735" Alignment="Bottom" />
-              <ControlPoint Id="IxTiuKu2V3qNFZxjyHjRNE" Bounds="405,79" Alignment="Top" />
-              <ControlPoint Id="JB5Ypq6E8w1Mzq35942sbe" Bounds="427,79" Alignment="Top" />
+              <ControlPoint Id="IxTiuKu2V3qNFZxjyHjRNE" Bounds="405,58" Alignment="Top" />
+              <ControlPoint Id="JB5Ypq6E8w1Mzq35942sbe" Bounds="427,58" Alignment="Top" />
               <ControlPoint Id="M1hi7QaEFxbNXKYO1LmCFh" Bounds="443,735" Alignment="Bottom" />
               <ControlPoint Id="BrzAW9sae5wNxFqY8OlFVH" Bounds="513,735" Alignment="Bottom" />
-              <ControlPoint Id="GxlQTjPOUMsME3f1NqFXZF" Bounds="489,79" Alignment="Top" />
-              <ControlPoint Id="AzSRFiXcojYPOqX5HMNcT2" Bounds="622,79" Alignment="Top" />
+              <ControlPoint Id="GxlQTjPOUMsME3f1NqFXZF" Bounds="489,58" Alignment="Top" />
+              <ControlPoint Id="AzSRFiXcojYPOqX5HMNcT2" Bounds="622,58" Alignment="Top" />
             </Node>
             <ControlPoint Id="EhMjUkx53p2Poy21nrDqEY" Bounds="406,2" />
             <Node Bounds="398,788,65,19" Id="IaxT6it7g11OP9agD9qkQj">
@@ -199,7 +197,7 @@
               <Pin Id="H3vRfRe1IHhLZEMHgZPxDZ" Name="Result" Kind="OutputPin" />
               <Pin Id="A5kcdegmiOQL1NSI9hIZLY" Name="Not Assigned" Kind="OutputPin" />
             </Node>
-            <Node Bounds="396,922,470,349" Id="FZEMJu4hMdgQPYerpmcLnd">
+            <Node Bounds="396,922,521,304" Id="FZEMJu4hMdgQPYerpmcLnd">
               <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <CategoryReference Kind="Category" Name="Primitive" />
@@ -209,24 +207,6 @@
               <Patch Id="FZOwHkM8XsfPeUHxJXgHV8" ManuallySortedPins="true">
                 <Patch Id="CvEl5NOQkJKMgfyTTYSbAV" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="JmpuO5NSKjEOdtgNVA0fOD" Name="Then" ManuallySortedPins="true" />
-                <Node Bounds="408,1006,86,26" Id="I5ANuByoSJPPkVrm7AOMNW">
-                  <p:NodeReference LastCategoryFullName="RPLidar4Net.IO.RPLidarSerialDevice" LastDependency="RPLidar4Net.IO.dll">
-                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="OperationCallFlag" Name="StopMotor" />
-                  </p:NodeReference>
-                  <Pin Id="NsYQnTQvw8TMdzbUURuLHL" Name="Input" Kind="StateInputPin" />
-                  <Pin Id="QS2PnzMTp4QLnc48rLA9WH" Name="Output" Kind="StateOutputPin" />
-                  <Pin Id="T021yauCKbGNfODM7Ga8DC" Name="Apply" Kind="InputPin" DefaultValue="False" />
-                </Node>
-                <Node Bounds="412,952,86,26" Id="AmMRym7r6gJLkX8rGnOGbP">
-                  <p:NodeReference LastCategoryFullName="RPLidar4Net.IO.RPLidarSerialDevice" LastDependency="RPLidar4Net.IO.dll">
-                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="OperationCallFlag" Name="StartMotor" />
-                  </p:NodeReference>
-                  <Pin Id="KGIU5mK3wVEN6jzUow86M0" Name="Input" Kind="StateInputPin" />
-                  <Pin Id="Vht9DUI9MoQMz5SmwUbJCU" Name="Output" Kind="StateOutputPin" />
-                  <Pin Id="KXwFTmD6ufzMMz9gmv00Aq" Name="Apply" Kind="InputPin" DefaultValue="False" />
-                </Node>
                 <Node Bounds="408,1054,86,26" Id="AMSqpjiYPwkQImEXGCKtNZ">
                   <p:NodeReference LastCategoryFullName="RPLidar4Net.IO.RPLidarSerialDevice" LastDependency="RPLidar4Net.IO.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -236,7 +216,7 @@
                   <Pin Id="NR70UgKSHM7Pfyr1Wgwihl" Name="Output" Kind="StateOutputPin" />
                   <Pin Id="SGnsWp9Z4MVLtjP6POqyj0" Name="Apply" Kind="InputPin" />
                 </Node>
-                <Node Bounds="410,1113,86,26" Id="H1jVQHZ2oEvQbiE0oSroGu">
+                <Node Bounds="408,1113,86,26" Id="H1jVQHZ2oEvQbiE0oSroGu">
                   <p:NodeReference LastCategoryFullName="RPLidar4Net.IO.RPLidarSerialDevice" LastDependency="RPLidar4Net.IO.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="StopScan" />
@@ -245,61 +225,7 @@
                   <Pin Id="QvHyv5DHlVHPpBxL2AA6NF" Name="Output" Kind="StateOutputPin" />
                   <Pin Id="NY9uKDbYqz0MNgyWR7t7JW" Name="Apply" Kind="InputPin" />
                 </Node>
-                <Node Bounds="708,1031,146,143" Id="OLjRNn2HY5QNAorjYP43J6">
-                  <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
-                    <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
-                    <CategoryReference Kind="Category" Name="Primitive" />
-                    <Choice Kind="ApplicationStatefulRegion" Name="If" />
-                  </p:NodeReference>
-                  <Pin Id="DI95g1WZ7s1LjGRa9z3wB6" Name="Condition" Kind="InputPin" />
-                  <Patch Id="MtaeHv1JCiWQRmTVWoH6Dq" ManuallySortedPins="true">
-                    <Patch Id="B38MEjiMlFlLiStUIh7CgU" Name="Create" ManuallySortedPins="true" />
-                    <Patch Id="PvHF8Pg8eU2NnZ3MU15vVi" Name="Then" ManuallySortedPins="true" />
-                    <Node Bounds="751,1128,90,26" Id="JqkICBiLRs6PmjeOsIpbKT">
-                      <p:NodeReference LastCategoryFullName="RPLidar4Net.Api.Data.HealthDataResponse" LastDependency="RPLidar4Net.Api.dll">
-                        <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                        <CategoryReference Kind="AssemblyCategory" Name="HealthDataResponse" NeedsToBeDirectParent="true" />
-                        <Choice Kind="OperationCallFlag" Name="Status" />
-                      </p:NodeReference>
-                      <Pin Id="HReeM7ts1SPPTnGEF6nUgl" Name="Input" Kind="StateInputPin" />
-                      <Pin Id="CTqURAE1H3GMFVVofLCFAG" Name="Output" Kind="StateOutputPin" />
-                      <Pin Id="L0L2iO0d3R2NYrLLy5b5zp" Name="Status" Kind="OutputPin" />
-                    </Node>
-                    <Node Bounds="752,1095,90,26" Id="MZNFkbMuDHcPQqpy2aREw7">
-                      <p:NodeReference LastCategoryFullName="RPLidar4Net.Api.Data.HealthDataResponse" LastDependency="RPLidar4Net.Api.dll">
-                        <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                        <CategoryReference Kind="AssemblyCategory" Name="HealthDataResponse" />
-                        <Choice Kind="OperationCallFlag" Name="ErrorCode" />
-                      </p:NodeReference>
-                      <Pin Id="CyBdxXZtJlqNgl5Od9R598" Name="Input" Kind="StateInputPin" />
-                      <Pin Id="E4znlWxppUIMyt8uJCvZfa" Name="Output" Kind="StateOutputPin" />
-                      <Pin Id="TaJHFdLUoWfQBvZvvUnY3f" Name="Error Code" Kind="OutputPin" />
-                    </Node>
-                    <Node Bounds="720,1054,86,26" Id="H2wv2ceH8l4LQT95h8x2zr">
-                      <p:NodeReference LastCategoryFullName="RPLidar4Net.IO.RPLidarSerialDevice" LastDependency="RPLidar4Net.IO.dll">
-                        <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                        <Choice Kind="OperationCallFlag" Name="GetHealth" />
-                      </p:NodeReference>
-                      <Pin Id="RgTaB2SODdAQGgUNmldZQn" Name="Input" Kind="StateInputPin" />
-                      <Pin Id="GyakmlGd32FMGM3ZPNRcS8" Name="Output" Kind="StateOutputPin" />
-                      <Pin Id="UyO7I8jLsPYNIfN8MvM8tt" Name="Result" Kind="OutputPin" />
-                    </Node>
-                  </Patch>
-                  <ControlPoint Id="BOS8wvkNGuTOWLeelDRIbV" Bounds="806,1168" Alignment="Bottom" />
-                  <ControlPoint Id="RYHqGfE8FVXMtMYoucJ5G7" Bounds="755,1037" Alignment="Top" />
-                  <ControlPoint Id="DkjKYuDlvZyLqLTEQEA1ic" Bounds="837,1168" Alignment="Bottom" />
-                  <ControlPoint Id="VhJ5ZDoovxIO5u98F02XZu" Bounds="786,1037" Alignment="Top" />
-                </Node>
-                <Node Bounds="412,1168,86,26" Id="KFHMwTEwP4bLYqyTruGFPd">
-                  <p:NodeReference LastCategoryFullName="RPLidar4Net.IO.RPLidarSerialDevice" LastDependency="RPLidar4Net.IO.dll">
-                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="OperationCallFlag" Name="MotorSpeed" />
-                  </p:NodeReference>
-                  <Pin Id="J5akACKT739QGsvI52nrkI" Name="Input" Kind="StateInputPin" />
-                  <Pin Id="OW1mMSUzLTbPnxXurxkjsb" Name="Output" Kind="StateOutputPin" />
-                  <Pin Id="S6JcrYB5IZMPumoQNdZt7v" Name="Motor Speed" Kind="OutputPin" />
-                </Node>
-                <Node Bounds="572,956,56,19" Id="DaeMoqKyK7EPE8ilmC2Nv5">
+                <Node Bounds="597,973,56,19" Id="DaeMoqKyK7EPE8ilmC2Nv5">
                   <p:NodeReference LastCategoryFullName="Control" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="TogEdge" />
@@ -309,34 +235,80 @@
                   <Pin Id="QzdfWuvbDLyPpvr0sgMA8b" Name="Up Edge" Kind="OutputPin" />
                   <Pin Id="QimtJrYLp6JM6OPS2vLpVw" Name="Down Edge" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="417,1215,86,26" Id="Kry0d7bgJS2PVthU8XpF1B">
-                  <p:NodeReference LastCategoryFullName="RPLidar4Net.IO.RPLidarSerialDevice" LastDependency="RPLidar4Net.IO.dll">
+                <Node Bounds="517,974,37,19" Id="RSKpT6q0yaxLOGGdLQ7bck">
+                  <p:NodeReference LastCategoryFullName="Primitive.Boolean" LastDependency="VL.CoreLib.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="OperationCallFlag" Name="ForceScan" />
+                    <Choice Kind="OperationCallFlag" Name="AND" />
                   </p:NodeReference>
-                  <Pin Id="Q2uegEbYITZMjGprHJO70V" Name="Input" Kind="StateInputPin" />
-                  <Pin Id="VqTmC5chLxoNra4HdafwxY" Name="Output" Kind="StateOutputPin" />
-                  <Pin Id="OOlVjmOha8DP6bXmAbssjE" Name="Apply" Kind="InputPin" />
+                  <Pin Id="FDRe479sTpAPZirZIpl4nI" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="VHPalXxlCYrPH5PD980yKt" Name="Input 2" Kind="InputPin" />
+                  <Pin Id="OilrU4674yHOiIDjFLNWvb" Name="Output" Kind="StateOutputPin" />
                 </Node>
-                <Pad Id="CHA2YUmK5cMP41YUjWqr0n" Comment="Apply" Bounds="551,1174,35,35" ShowValueBox="true" isIOBox="true" Value="false">
-                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-                    <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
-                  </p:TypeAnnotation>
-                  <p:ValueBoxSettings>
-                    <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
-                  </p:ValueBoxSettings>
-                </Pad>
+                <Node Bounds="517,1012,30,19" Id="IJT2QK0D230Ly0wgOpAVZ1">
+                  <p:NodeReference LastCategoryFullName="Primitive.Boolean" LastDependency="VL.CoreLib.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="OperationCallFlag" Name="OR" />
+                  </p:NodeReference>
+                  <Pin Id="BzjjhhE9ZUYNvxLyiVqbkq" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="VlBGS9f4kG0LFRJ92I07xi" Name="Input 2" Kind="InputPin" />
+                  <Pin Id="KjQcAe6nPaQNxepoqGRchi" Name="Output" Kind="StateOutputPin" />
+                </Node>
+                <Node Bounds="744,1043,149,143" Id="JwYDpANv2eROGIwcgJ7hnE">
+                  <p:NodeReference LastCategoryFullName="Primitive" LastDependency="Builtin">
+                    <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
+                    <CategoryReference Kind="Category" Name="Primitive" />
+                    <Choice Kind="ProcessStatefulRegion" Name="Cache" />
+                  </p:NodeReference>
+                  <Pin Id="GUrf1ecHw1vLon2GOgRoK9" Name="Force" Kind="InputPin" />
+                  <Pin Id="TLoxjBKXDyePMvOexH4YxK" Name="Dispose Cached Outputs" Kind="InputPin" />
+                  <Pin Id="I5hApeRhldkMtifPn0tOmN" Name="Has Changed" Kind="OutputPin" />
+                  <Patch Id="HG9QAiGF6SGMqWDebve72q" ManuallySortedPins="true">
+                    <Patch Id="Q0jZs1Q5RkuL3xhZqzV1CY" Name="Create" ManuallySortedPins="true" />
+                    <Patch Id="TOLe5F0YBEmPEC8SyOr3kQ" Name="Then" ManuallySortedPins="true" />
+                    <Node Bounds="787,1140,90,26" Id="JqkICBiLRs6PmjeOsIpbKT">
+                      <p:NodeReference LastCategoryFullName="RPLidar4Net.Api.Data.HealthDataResponse" LastDependency="RPLidar4Net.Api.dll">
+                        <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                        <CategoryReference Kind="AssemblyCategory" Name="HealthDataResponse" NeedsToBeDirectParent="true" />
+                        <Choice Kind="OperationCallFlag" Name="Status" />
+                      </p:NodeReference>
+                      <Pin Id="HReeM7ts1SPPTnGEF6nUgl" Name="Input" Kind="StateInputPin" />
+                      <Pin Id="CTqURAE1H3GMFVVofLCFAG" Name="Output" Kind="StateOutputPin" />
+                      <Pin Id="L0L2iO0d3R2NYrLLy5b5zp" Name="Status" Kind="OutputPin" />
+                    </Node>
+                    <Node Bounds="788,1107,90,26" Id="MZNFkbMuDHcPQqpy2aREw7">
+                      <p:NodeReference LastCategoryFullName="RPLidar4Net.Api.Data.HealthDataResponse" LastDependency="RPLidar4Net.Api.dll">
+                        <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                        <CategoryReference Kind="AssemblyCategory" Name="HealthDataResponse" />
+                        <Choice Kind="OperationCallFlag" Name="ErrorCode" />
+                      </p:NodeReference>
+                      <Pin Id="CyBdxXZtJlqNgl5Od9R598" Name="Input" Kind="StateInputPin" />
+                      <Pin Id="E4znlWxppUIMyt8uJCvZfa" Name="Output" Kind="StateOutputPin" />
+                      <Pin Id="TaJHFdLUoWfQBvZvvUnY3f" Name="Error Code" Kind="OutputPin" />
+                    </Node>
+                    <Node Bounds="756,1066,86,26" Id="H2wv2ceH8l4LQT95h8x2zr">
+                      <p:NodeReference LastCategoryFullName="RPLidar4Net.IO.RPLidarSerialDevice" LastDependency="RPLidar4Net.IO.dll">
+                        <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                        <Choice Kind="OperationCallFlag" Name="GetHealth" />
+                      </p:NodeReference>
+                      <Pin Id="RgTaB2SODdAQGgUNmldZQn" Name="Input" Kind="StateInputPin" />
+                      <Pin Id="GyakmlGd32FMGM3ZPNRcS8" Name="Output" Kind="StateOutputPin" />
+                      <Pin Id="UyO7I8jLsPYNIfN8MvM8tt" Name="Result" Kind="OutputPin" />
+                    </Node>
+                  </Patch>
+                  <ControlPoint Id="Vq0R5iEzQowMpu5DUJAbYo" Bounds="856,1180" Alignment="Bottom" />
+                  <ControlPoint Id="JFzP34NFER4Oj6SdR7IjMG" Bounds="878,1180" Alignment="Bottom" />
+                </Node>
               </Patch>
               <ControlPoint Id="GA3QZLin3wHNtMb3mL5XvF" Bounds="412,928" Alignment="Top" />
-              <ControlPoint Id="MP4G1F7cXrLQTuKnyub8zM" Bounds="422,1265" Alignment="Bottom" />
-              <ControlPoint Id="CDtL2wnRiDYM4vJgbL2MPN" Bounds="842,1265" Alignment="Bottom" />
+              <ControlPoint Id="MP4G1F7cXrLQTuKnyub8zM" Bounds="422,1220" Alignment="Bottom" />
+              <ControlPoint Id="CDtL2wnRiDYM4vJgbL2MPN" Bounds="900,1220" Alignment="Bottom" />
               <ControlPoint Id="QDE6j9wEN2HLcGNDHlfZwQ" Bounds="753,928" Alignment="Top" />
-              <ControlPoint Id="FWRQg2IVN9uNOGu5VrKqOR" Bounds="790,1265" Alignment="Bottom" />
+              <ControlPoint Id="FWRQg2IVN9uNOGu5VrKqOR" Bounds="824,1220" Alignment="Bottom" />
               <ControlPoint Id="Jtrp8sTmxGJNpNVwyVQ75b" Bounds="615,928" Alignment="Top" />
-              <ControlPoint Id="QHQ1PQl8XRlMZtKrnMpIek" Bounds="501,1265" Alignment="Bottom" />
-              <ControlPoint Id="GvV860nuh4uMkiKPcTuWQ6" Bounds="510,928" Alignment="Top" />
+              <ControlPoint Id="Aemf4SUwVQQPAtSMzP2POF" Bounds="838,928" Alignment="Top" />
+              <ControlPoint Id="Hnlacqe37i9MwLtPz7rQTy" Bounds="686,1220" Alignment="Bottom" />
             </Node>
-            <ControlPoint Id="OdTKCcmGAZLO2ta9BZa0aV" Bounds="441,39" />
+            <ControlPoint Id="OdTKCcmGAZLO2ta9BZa0aV" Bounds="482,5" />
             <Node Bounds="172,37,75,26" Id="QfVUKR88wmRP6IJVqczqpT">
               <p:NodeReference LastCategoryFullName="Reactive.Disposables.SerialDisposable" LastDependency="VL.CoreLib.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -457,8 +429,6 @@
                 </Node>
               </Patch>
             </Node>
-            <Pad Id="USH6GiPq6fCPSApMcI4dRh" Comment="" Bounds="863,1323,35,15" ShowValueBox="true" isIOBox="true" />
-            <Pad Id="M1qfO5gp29WOWeca5PiZC5" Comment="" Bounds="788,1340,35,15" ShowValueBox="true" isIOBox="true" />
             <ControlPoint Id="AWD6jh9GI1WQXxksY7DNfs" Bounds="324,1142" />
             <!--
 
@@ -597,20 +567,13 @@
               </Patch>
             </Node>
             <ControlPoint Id="RPouVIkl16KO5u34O4zR2O" Bounds="514,770" />
-            <ControlPoint Id="Uy5Nn8rJ3Z3P6L8EITxbiN" Bounds="577,892" />
-            <Pad Id="MxanEbWQ4m2P4zkNMU1Y7y" Comment="" Bounds="500,1353,49,15" ShowValueBox="true" isIOBox="true" />
-            <ControlPoint Id="KpwxRFR4bKGNUWzALdwcl0" Bounds="512,1310" />
-            <Pad Id="UheGYyUYyZsO4Ienv8hZme" Comment="Condition" Bounds="888,993,35,35" ShowValueBox="true" isIOBox="true" Value="false">
-              <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
-                <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
-              </p:TypeAnnotation>
-              <p:ValueBoxSettings>
-                <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
-              </p:ValueBoxSettings>
-            </Pad>
+            <ControlPoint Id="Uy5Nn8rJ3Z3P6L8EITxbiN" Bounds="600,881" />
             <ControlPoint Id="J3UiYJSEDaIQWQXnEusI1j" Bounds="129,1306" />
-            <ControlPoint Id="LENlnKszTgOQSzTiYyRn8N" Bounds="507,38" />
-            <ControlPoint Id="TiiO7sX6xPFOKQC3ACxnWR" Bounds="619,35" />
+            <ControlPoint Id="LENlnKszTgOQSzTiYyRn8N" Bounds="548,4" />
+            <ControlPoint Id="TiiO7sX6xPFOKQC3ACxnWR" Bounds="660,1" />
+            <ControlPoint Id="SWsQrDx9lE6OTCsbbm4TRK" Bounds="856,852" />
+            <ControlPoint Id="FFyx36WRZxxLsu3c2u9l8A" Bounds="825,1259" />
+            <ControlPoint Id="BoQ2ESvIrp5PPqBoFtYCs8" Bounds="899,1262" />
           </Canvas>
           <Patch Id="ImsgshyV2VGOHwQNusGeu3" Name="Update" ManuallySortedPins="true">
             <Pin Id="NykgAyEmVhkMSgYJun94Ue" Name="Port Name" Kind="InputPin" DefaultValue="COM3">
@@ -625,7 +588,9 @@
             <Pin Id="S21RHmnd6aQQUAVG2zpikN" Name="Enabled" Kind="InputPin" />
             <Pin Id="DaK6CS4qwdVOKzkTrpHxjx" Name="Result" Kind="OutputPin" />
             <Pin Id="KcUAozRE7X6Lbfrp1qeluJ" Name="Device Info" Kind="OutputPin" />
-            <Pin Id="CTtsDm7iiMxL3UopJGLYdE" Name="Estimated Motor Speed" Kind="OutputPin" />
+            <Pin Id="Q6cYJZgIXlbO0cX33lvDul" Name="Get Health" Kind="InputPin" />
+            <Pin Id="KI1PV8eVyUpL4CmM0dcXDO" Name="Error Code" Kind="OutputPin" />
+            <Pin Id="CPkuMJ0VB9GMOnEMAlxeFB" Name="Status" Kind="OutputPin" />
           </Patch>
           <ProcessDefinition Id="KRD4XyBpdnWLOk1cz72HGN">
             <Fragment Id="JzkS54rdHdYNrKlDJds5cU" Patch="ImsgshyV2VGOHwQNusGeu3" Enabled="true" />
@@ -638,8 +603,6 @@
           <Link Id="S0kIF4YNNsRPrTHEJ33DEo" Ids="QBWboaTFymHObcRatIIpuh,CIMMjeZSOpePncHCtpf8Ne" />
           <Link Id="NNqvdQEUHHZNfaYVWn7f3N" Ids="GA3QZLin3wHNtMb3mL5XvF,MP4G1F7cXrLQTuKnyub8zM" IsFeedback="true" />
           <Link Id="Hm22tRN5dCuPYypoDrV4tv" Ids="QBWboaTFymHObcRatIIpuh,GA3QZLin3wHNtMb3mL5XvF" />
-          <Link Id="EUFqgtSo9dHPozpNSDtKNT" Ids="GA3QZLin3wHNtMb3mL5XvF,KGIU5mK3wVEN6jzUow86M0" />
-          <Link Id="TX4UbBPZEagOvEjhlTTFMw" Ids="Vht9DUI9MoQMz5SmwUbJCU,NsYQnTQvw8TMdzbUURuLHL" />
           <Link Id="NuEF8HrStonOstoMetMyLd" Ids="H3vRfRe1IHhLZEMHgZPxDZ,VZuNti6oNdoPJQ7AuFF4Ae" />
           <Link Id="Eq82zzaoPNsMbAYVww1yQX" Ids="BetzhvjMLq5MzksOvKObez,RuOD30MdXyyQI5uLoPPPje" />
           <Link Id="GJuMORG763oLf8oMN9qZcY" Ids="MR9oBJIiCj6PKFDaPuSLdd,Vf34x6DLwj7L7tusYCcWXN" />
@@ -662,29 +625,18 @@
           <Link Id="V1drGFzA9HRPwp0XEhGRa3" Ids="OxP88YpMBhVMvUjySEa5Zz,RGolfCTn1SbN4U54ln97WE" />
           <Link Id="FAIUTSIWpaMOugPPPm8Eot" Ids="OdTKCcmGAZLO2ta9BZa0aV,JB5Ypq6E8w1Mzq35942sbe" />
           <Link Id="VH6TrxmX8OsLXt43rnFQro" Ids="JB5Ypq6E8w1Mzq35942sbe,Q3zY5WlhUNGQImoVgHJbMi" />
-          <Link Id="KR0HbDx9ERVQN7zQyCh3eR" Ids="QS2PnzMTp4QLnc48rLA9WH,FHRv8jFSZ53PWohPWXY778" />
           <Link Id="A5vt6SBvmFhM1OAxSTtNrA" Ids="NR70UgKSHM7Pfyr1Wgwihl,VCSoJAhJ3zLMrHhZ2Ar4bS" />
           <Link Id="E4Cyk5Ls2VpNYaepKF0ZxH" Ids="RtD4OlkP50jPgmOsGxGb7K,NPIxtc37rLYLjWEYfeuS6T" IsHidden="true" />
           <Link Id="H8iMxETLNCFP9rd2ECZe04" Ids="SGEy4hibULiM1Z4zFdSnTU,BFg3uJLUpsRNJvJpYOw96u" IsHidden="true" />
           <Link Id="NJVjlZe7IB8Pyy3uTYrn6R" Ids="NPIxtc37rLYLjWEYfeuS6T,TSaoMgPj1KtL39FzKJ1vwf" />
           <Link Id="B8jXLo3dn5QNbo1yb7ZwBV" Ids="OOlLerOJFIHOhnU8PPgP4E,KTCTWUI7ZkILcE5cctyDno" />
           <Link Id="KdL8GbJHshpQYHg1gt2ekX" Ids="OxP88YpMBhVMvUjySEa5Zz,GGoQLEV4AvTMG78Dvzhvnb" />
-          <Link Id="JXTaPPWJrGsO66L34ffJzP" Ids="QYkWEhlOaAhN9ULIKiKrUJ,L969bzSFjUNOCuaXOwGCb0" IsFeedback="true" />
-          <Link Id="OkodgMp5w87Pr0Gp3ITGEE" Ids="E4znlWxppUIMyt8uJCvZfa,HReeM7ts1SPPTnGEF6nUgl" />
           <Link Id="B3JWfVJJl7BOA9oYSSjX4X" Ids="EDgHe1mO9c9LLpBDWaF2l7,IAshIjSsuC2NZpTIbia3eS" IsFeedback="true" />
           <Link Id="ItcJIgTbubxOt9hymUIvbn" Ids="ShmHtLuyqxSMkRnN6MzvCY,IAshIjSsuC2NZpTIbia3eS" />
           <Link Id="OqEhhF90yE8QIEAIAI7RxN" Ids="IAshIjSsuC2NZpTIbia3eS,M1hi7QaEFxbNXKYO1LmCFh" />
           <Link Id="D2gGJl1ENBAP0Te1PFUZnG" Ids="M1hi7QaEFxbNXKYO1LmCFh,ShgvoGpIIEaLShoXnW2lx0" />
           <Link Id="U4xXUF4OAN1LIB9XySYwkZ" Ids="QDE6j9wEN2HLcGNDHlfZwQ,CDtL2wnRiDYM4vJgbL2MPN" IsFeedback="true" />
-          <Link Id="NoY2PVc08M0Pyj33MTqXOe" Ids="CDtL2wnRiDYM4vJgbL2MPN,USH6GiPq6fCPSApMcI4dRh" />
           <Link Id="Ne2lgFM5wwJOvVY1yBicoH" Ids="Jtrp8sTmxGJNpNVwyVQ75b,FWRQg2IVN9uNOGu5VrKqOR" IsFeedback="true" />
-          <Link Id="RkzNC3iJFdxOopJ8neTvrh" Ids="FWRQg2IVN9uNOGu5VrKqOR,M1qfO5gp29WOWeca5PiZC5" />
-          <Link Id="KM0TbFNtkXfOQFd9wEG5qb" Ids="RYHqGfE8FVXMtMYoucJ5G7,BOS8wvkNGuTOWLeelDRIbV" IsFeedback="true" />
-          <Link Id="DOabKCKySJIOnWYsXoC1P5" Ids="L0L2iO0d3R2NYrLLy5b5zp,BOS8wvkNGuTOWLeelDRIbV" />
-          <Link Id="Ik2rTdEY2BYOtHyO2OAcfm" Ids="BOS8wvkNGuTOWLeelDRIbV,FWRQg2IVN9uNOGu5VrKqOR" />
-          <Link Id="GopFbkcxKAqNdHrtxHDTXS" Ids="VhJ5ZDoovxIO5u98F02XZu,DkjKYuDlvZyLqLTEQEA1ic" IsFeedback="true" />
-          <Link Id="AshF209rksYN3stA8eCbBh" Ids="TaJHFdLUoWfQBvZvvUnY3f,DkjKYuDlvZyLqLTEQEA1ic" />
-          <Link Id="FQIpjG5cbTQMQ9EgRNiib4" Ids="DkjKYuDlvZyLqLTEQEA1ic,CDtL2wnRiDYM4vJgbL2MPN" />
           <Link Id="Vqgm1yu0FUeNvIpChM3kVo" Ids="RR3SU8S7fYtPk2rkrHbz8V,AoO9gM993vfPJcJZg0G5bq" />
           <Link Id="QenXTGPQ2rVQNVs0tKRhJX" Ids="AoO9gM993vfPJcJZg0G5bq,A357byRS3YfOajeekfUek1" />
           <Link Id="NL9pHjG3aeOMT6vXnfRlU0" Ids="VJeYwlhm0iBOwzUhqCSgoQ,Qe5gzr19TRcNCScKm14opK" />
@@ -705,20 +657,9 @@
           <Link Id="JkCFk05N6qMPcgthFnuy70" Ids="RPouVIkl16KO5u34O4zR2O,KcUAozRE7X6Lbfrp1qeluJ" IsHidden="true" />
           <Link Id="Gm7vn3ha6LYOu3kRUbhrhM" Ids="PCeRtwEz0U3P74sBD2oys9,Uy5Nn8rJ3Z3P6L8EITxbiN" IsHidden="true" />
           <Link Id="Qn5Ku4LJrwbM0rYIjkVoRR" Ids="Uy5Nn8rJ3Z3P6L8EITxbiN,E6ktWb7xYZLNQoqFXDLUOB" />
-          <Link Id="ULkwra3FRyjM0novineA6L" Ids="QzdfWuvbDLyPpvr0sgMA8b,SGnsWp9Z4MVLtjP6POqyj0" />
           <Link Id="CBvgG00p9JwLYz0qHsywOD" Ids="QimtJrYLp6JM6OPS2vLpVw,NY9uKDbYqz0MNgyWR7t7JW" />
-          <Link Id="L0EuwD6F57JQBI8kIwAn51" Ids="QvHyv5DHlVHPpBxL2AA6NF,J5akACKT739QGsvI52nrkI" />
-          <Link Id="UDafZBMoT9QPpmOzT82ybQ" Ids="GvV860nuh4uMkiKPcTuWQ6,QHQ1PQl8XRlMZtKrnMpIek" IsFeedback="true" />
-          <Link Id="RKoKmvFOE4hQEIXD39rHOh" Ids="S6JcrYB5IZMPumoQNdZt7v,QHQ1PQl8XRlMZtKrnMpIek" />
-          <Link Id="M7ii2iWxJhRLijyb7IrMQP" Ids="QHQ1PQl8XRlMZtKrnMpIek,MxanEbWQ4m2P4zkNMU1Y7y" />
           <Link Id="CT7e7cAPIipOzkIekL4Ewk" Ids="SOZZsbG0nHhMd1HBnjuZIZ,SCKXluM6xGjQAe3of6qpaF" />
-          <Link Id="Ga9xZpaXvY6L2q6d1xH1k5" Ids="QHQ1PQl8XRlMZtKrnMpIek,KpwxRFR4bKGNUWzALdwcl0" />
-          <Link Id="OHtyJMGJLZ4P6CER77hQPP" Ids="KpwxRFR4bKGNUWzALdwcl0,CTtsDm7iiMxL3UopJGLYdE" IsHidden="true" />
-          <Link Id="OM7oiVIPYEMMngggQGfsL5" Ids="OW1mMSUzLTbPnxXurxkjsb,Q2uegEbYITZMjGprHJO70V" />
-          <Link Id="EbuUX0LTJHWMFbHI27MKSk" Ids="CHA2YUmK5cMP41YUjWqr0n,OOlVjmOha8DP6bXmAbssjE" />
           <Link Id="Qaig2EDuGq8NoR58Vd3f1N" Ids="GA3QZLin3wHNtMb3mL5XvF,RgTaB2SODdAQGgUNmldZQn" />
-          <Link Id="Fzt6aTv6ki3PaFS3mwh5bu" Ids="UyO7I8jLsPYNIfN8MvM8tt,CyBdxXZtJlqNgl5Od9R598" />
-          <Link Id="NIBCktaUIsnOtJUZcT5gwQ" Ids="UheGYyUYyZsO4Ienv8hZme,DI95g1WZ7s1LjGRa9z3wB6" />
           <Link Id="Baz7pDj4QRcLRFOni7pwju" Ids="LQVqDKZDgcGP8JnGzXZBSh,J3UiYJSEDaIQWQXnEusI1j" />
           <Link Id="Jsc6EQV1ah5M5pDgN7pxQz" Ids="J3UiYJSEDaIQWQXnEusI1j,DaK6CS4qwdVOKzkTrpHxjx" IsHidden="true" />
           <Link Id="QbIwFex3iYaQKxZpOrpXWd" Ids="GxlQTjPOUMsME3f1NqFXZF,LoQeDCvNwvXQHfsJ66saPb" />
@@ -727,6 +668,26 @@
           <Link Id="PdVtRJ2RuEYQZWeTCNight" Ids="AzSRFiXcojYPOqX5HMNcT2,QDLeO8TaCDoN8Qrtj3C9rg" />
           <Link Id="NzlhOQwOX7YLkwnUlsiau1" Ids="TiiO7sX6xPFOKQC3ACxnWR,AzSRFiXcojYPOqX5HMNcT2" />
           <Link Id="IqKTHbh11lyOtyGmKc7lNq" Ids="OoO6Bqt44NxPH2qm6oRb3n,TiiO7sX6xPFOKQC3ACxnWR" IsHidden="true" />
+          <Link Id="U7aFZslNhjcPadJoXc2Vse" Ids="Uy5Nn8rJ3Z3P6L8EITxbiN,VHPalXxlCYrPH5PD980yKt" />
+          <Link Id="CMH17o7he5VMh0ZrUkiEnt" Ids="OilrU4674yHOiIDjFLNWvb,BzjjhhE9ZUYNvxLyiVqbkq" />
+          <Link Id="H9oxpQGqbxvPCQVoXSD098" Ids="QzdfWuvbDLyPpvr0sgMA8b,VlBGS9f4kG0LFRJ92I07xi" />
+          <Link Id="KGquDqOr8iXMpbeV4UECQQ" Ids="Di1udvxi7tWL1TIqlofpMy,FDRe479sTpAPZirZIpl4nI" />
+          <Link Id="UMqUs5HIYklLUXDN9xmxkv" Ids="KjQcAe6nPaQNxepoqGRchi,SGnsWp9Z4MVLtjP6POqyj0" />
+          <Link Id="N8JOxKPioofOnvnWFDexlK" Ids="Aemf4SUwVQQPAtSMzP2POF,Hnlacqe37i9MwLtPz7rQTy" IsFeedback="true" />
+          <Link Id="HI8GFTG82IhQD8X21dLBHg" Ids="SWsQrDx9lE6OTCsbbm4TRK,Aemf4SUwVQQPAtSMzP2POF" />
+          <Link Id="EbuTlzFQClYMb3GQAqLSSD" Ids="Q6cYJZgIXlbO0cX33lvDul,SWsQrDx9lE6OTCsbbm4TRK" IsHidden="true" />
+          <Link Id="Q6XA7pIgcC6OtC1ZoGkgEU" Ids="GA3QZLin3wHNtMb3mL5XvF,FHRv8jFSZ53PWohPWXY778" />
+          <Link Id="TBKIgvPCjbsMJA29mauOdK" Ids="Aemf4SUwVQQPAtSMzP2POF,GUrf1ecHw1vLon2GOgRoK9" />
+          <Link Id="OkodgMp5w87Pr0Gp3ITGEE" Ids="E4znlWxppUIMyt8uJCvZfa,HReeM7ts1SPPTnGEF6nUgl" />
+          <Link Id="Fzt6aTv6ki3PaFS3mwh5bu" Ids="UyO7I8jLsPYNIfN8MvM8tt,CyBdxXZtJlqNgl5Od9R598" />
+          <Link Id="J1H9sxHMjeHMdBipjC29K2" Ids="TaJHFdLUoWfQBvZvvUnY3f,Vq0R5iEzQowMpu5DUJAbYo" />
+          <Link Id="P83MWo6SFTOMR8fMBT4Pbq" Ids="Vq0R5iEzQowMpu5DUJAbYo,FWRQg2IVN9uNOGu5VrKqOR" />
+          <Link Id="EndSNZejigQNIJtTKWMYpD" Ids="L0L2iO0d3R2NYrLLy5b5zp,JFzP34NFER4Oj6SdR7IjMG" />
+          <Link Id="MWHz0G7mersOriK6p8CGDE" Ids="JFzP34NFER4Oj6SdR7IjMG,CDtL2wnRiDYM4vJgbL2MPN" />
+          <Link Id="KVuES0xxb3EOsTWcq5xRHP" Ids="FWRQg2IVN9uNOGu5VrKqOR,FFyx36WRZxxLsu3c2u9l8A" />
+          <Link Id="JTDbNegQuY5OrzkCfujOgR" Ids="FFyx36WRZxxLsu3c2u9l8A,KI1PV8eVyUpL4CmM0dcXDO" IsHidden="true" />
+          <Link Id="UWNHlUNdfPFQaPNHLRuA6k" Ids="CDtL2wnRiDYM4vJgbL2MPN,BoQ2ESvIrp5PPqBoFtYCs8" />
+          <Link Id="Px6659Sb5KJOjRYclD9V95" Ids="BoQ2ESvIrp5PPqBoFtYCs8,CPkuMJ0VB9GMOnEMAlxeFB" IsHidden="true" />
         </Patch>
       </Node>
       <Pad Id="ACl9BMApSY6Ovuis8JQP8H" Bounds="451,123,238,19" ShowValueBox="true" isIOBox="true" Value="https://bucket-download.slamtec.com/6957283725b66750890024d1f0d12940fa079e06/LR002_SLAMTEC_rplidar_sdk_v2.0_en.pdf">

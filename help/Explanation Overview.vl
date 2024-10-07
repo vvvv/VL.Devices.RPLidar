@@ -15,7 +15,7 @@
       </p:NodeReference>
       <Patch Id="Np2R00enbdsOwdXcdVRmSJ">
         <Canvas Id="U46yhbwd53fMUYlVTA4WTz" CanvasType="Group">
-          <Node Bounds="164,312,105,19" Id="P6lWJCqWqbsQGezq6uDadC">
+          <Node Bounds="164,312,125,19" Id="P6lWJCqWqbsQGezq6uDadC">
             <p:NodeReference LastCategoryFullName="Main" LastDependency="callmenames-2024-10-01_02.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessNode" Name="RPLidar" />
@@ -30,9 +30,11 @@
             <Pin Id="FOQNwLpOaGwNIumrQdHHtU" Name="Enabled" Kind="InputPin" />
             <Pin Id="BUbMAdkcFi7QWlEn6gWKa0" Name="Result" Kind="OutputPin" />
             <Pin Id="Rc74yTEGqBxLuGApCYJYZS" Name="Device Info" Kind="OutputPin" />
-            <Pin Id="AWevrPNcDckOEC5haa67RB" Name="Estimated Motor Speed" Kind="OutputPin" />
+            <Pin Id="SHCvGjWUg3bPRlULMC5x6z" Name="Get Health" Kind="InputPin" />
+            <Pin Id="L1TM6TVcs96Nsy6AjWoFb2" Name="Error Code" Kind="OutputPin" />
+            <Pin Id="RpI5Nqzc4KpNqeO1pTdS65" Name="Status" Kind="OutputPin" />
           </Node>
-          <Pad Id="KcFjXUYy8sCLAxrtWa9fmw" Comment="Port Name" Bounds="166,141,57,15" ShowValueBox="true" isIOBox="true" Value="COM3">
+          <Pad Id="KcFjXUYy8sCLAxrtWa9fmw" Comment="Port Name" Bounds="166,141,57,15" ShowValueBox="true" isIOBox="true" Value="COM10">
             <p:TypeAnnotation LastCategoryFullName="IO.Ports" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="ComPort" />
             </p:TypeAnnotation>
@@ -100,7 +102,7 @@
             <Pin Id="QCOWIGNOnQwOhnJbQvIWfs" Name="Zoom" Kind="OutputPin" />
             <Pin Id="VICvUFEBVs5MS4m28VVQ9n" Name="Idle" Kind="OutputPin" />
           </Node>
-          <Pad Id="EmU8dmFArX9PFgZl6kkRCN" Comment="Device Info" Bounds="216,377,286,62" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="EmU8dmFArX9PFgZl6kkRCN" Comment="Device Info" Bounds="206,388,286,62" ShowValueBox="true" isIOBox="true" />
           <Pad Id="VUrf8KvubdZO0BlKh1LP21" Comment="Scan" Bounds="246,255,35,35" ShowValueBox="true" isIOBox="true" Value="True">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
@@ -122,7 +124,6 @@
             <Pin Id="Ej10KLY4yKwLnrPs9fGequ" Name="On Data" Kind="OutputPin" />
           </Node>
           <Pad Id="VjkH0KOUoRRPm4mxZn3EPC" Comment="On Data" Bounds="225,507,35,35" ShowValueBox="true" isIOBox="true" />
-          <Pad Id="UF0hYMeeCNqMqUS9MYQ9n0" Comment="Estimated Motor Speed" Bounds="266,353,41,15" ShowValueBox="true" isIOBox="true" />
           <Pad Id="FwJON1sozBYL8rSAbhGrkF" Comment="Scaling" Bounds="226,231,44,15" ShowValueBox="true" isIOBox="true" Value="0.001">
             <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
               <Choice Kind="TypeFlag" Name="Float32" />
@@ -169,6 +170,16 @@
               <Choice Kind="TypeFlag" Name="Integer32" />
             </p:TypeAnnotation>
           </Pad>
+          <Pad Id="K5ZncvVtvhILMTj1WndT1V" Comment="Get Health" Bounds="484,277,35,35" ShowValueBox="true" isIOBox="true" Value="false">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="Si91mZWTZA3PgcgrakMn3V" Comment="Error Code" Bounds="248,353,35,15" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="MIVWFI9mR6dNakpNf0RO7N" Comment="Status" Bounds="378,354,35,15" ShowValueBox="true" isIOBox="true" />
         </Canvas>
         <Patch Id="VQ03JHOiNJ2MKwdCwZ2kEg" Name="Create" />
         <Patch Id="VUhWUKG80d4QcoVSLYgxc4" Name="Update" />
@@ -185,10 +196,12 @@
         <Link Id="BudAZ0NL5lwLNaFUH99Gdb" Ids="Ej10KLY4yKwLnrPs9fGequ,VjkH0KOUoRRPm4mxZn3EPC" />
         <Link Id="PVoeVqFJ13ZLcLwmSXPcG2" Ids="BUbMAdkcFi7QWlEn6gWKa0,JjhytDAyyVUMNN1mfwrcyj" />
         <Link Id="U0StvRxFvW0OZt5SUHQZOF" Ids="OIj5UjJZc1YMi3NP5wJ8LO,AjHtXXTKnzVP2Yso26AfNl" />
-        <Link Id="RZJwdCtvxJANMOT5YEQ9WB" Ids="AWevrPNcDckOEC5haa67RB,UF0hYMeeCNqMqUS9MYQ9n0" />
         <Link Id="HUHBiThkGjgOVaXjQ1z1fI" Ids="FwJON1sozBYL8rSAbhGrkF,ESyoTucCEnON5yz7l0XTnV" />
         <Link Id="IIlTTPXbEh9OWVKVxuZrOy" Ids="HxHjud2FFjpPx4J9tbSy3V,Ds4kRbo8MXHOTWrGvsoDXM" />
         <Link Id="TXcXDTHq0i7QVpEXzFfjUN" Ids="LbFqLXRMOjHLPP4olgidIF,MAQCEvhOF7vPtXkOK5b6GD" />
+        <Link Id="HiUro045ktWPF1DQR64lEs" Ids="K5ZncvVtvhILMTj1WndT1V,SHCvGjWUg3bPRlULMC5x6z" />
+        <Link Id="E56ox2XmONjNcr8GIhcJvz" Ids="L1TM6TVcs96Nsy6AjWoFb2,Si91mZWTZA3PgcgrakMn3V" />
+        <Link Id="GHtr1qMbkBYPKXsMrRKIVb" Ids="RpI5Nqzc4KpNqeO1pTdS65,MIVWFI9mR6dNakpNf0RO7N" />
       </Patch>
     </Node>
   </Patch>
