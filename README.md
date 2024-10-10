@@ -1,13 +1,13 @@
 # VL.Devices.RPLidar
 
 For using RPLIDAR devices by [Slamtec](http://slamtec.com).  
-- List of potentially [supported device](https://github.com/slamtec/rplidar_sdk?tab=readme-ov-file#supported-platforms)
+- List of potentially [supported devices](https://github.com/slamtec/rplidar_sdk?tab=readme-ov-file#supported-platforms)
 - Tested to work with [RPLidar A1](https://www.slamtec.com/en/Lidar/A1) and [RPLidar A2](https://www.slamtec.com/en/Lidar/A2) model A2M12
 
 For use with vvvv, the visual live-programming environment for .NET: http://visualprogramming.net
 
 ## Getting started
-- When connecting via USB, install [CP210x USB to UART Bridge](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) for 
+- When connecting via USB, install [CP210x USB to UART Bridge](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) 
 - Install as [described here](https://thegraybook.vvvv.org/reference/hde/managing-nugets.html) via commandline:
 
     `nuget install VL.Devices.RPLidar -pre`
