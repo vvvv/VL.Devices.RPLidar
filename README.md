@@ -1,6 +1,8 @@
 # VL.Devices.RPLidar
 
-For using RPLIDAR [A1](https://www.slamtec.com/en/Lidar/A1), [A2](https://www.slamtec.com/en/Lidar/A2) and [A3](https://www.slamtec.com/en/Lidar/A3) devices by [Slamtec](http://slamtec.com)
+For using RPLIDAR devices by [Slamtec](http://slamtec.com).  
+- List of potentially [supported device](https://github.com/slamtec/rplidar_sdk?tab=readme-ov-file#supported-platforms)
+- Tested to work with [RPLidar A1](https://www.slamtec.com/en/Lidar/A1) and [RPLidar A2](https://www.slamtec.com/en/Lidar/A2) model A2M12
 
 For use with vvvv, the visual live-programming environment for .NET: http://visualprogramming.net
 
