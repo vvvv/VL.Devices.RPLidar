@@ -7,7 +7,7 @@ For using RPLIDAR devices by [Slamtec](http://slamtec.com).
 For use with vvvv, the visual live-programming environment for .NET: http://visualprogramming.net
 
 ## Getting started
-- When connecting via USB, install [CP210x USB to UART Bridge](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) for 
+- When connecting via USB, install [CP210x USB to UART Bridge](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) 
 - Install as [described here](https://thegraybook.vvvv.org/reference/hde/managing-nugets.html) via commandline:
 
     `nuget install VL.Devices.RPLidar -pre`
