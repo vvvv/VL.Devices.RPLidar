@@ -25,4 +25,4 @@ Based on [RPLidar4Net.IO](https://www.nuget.org/packages/RPLidar4Net.IO)
 
 ## Sponsoring
 Development of this library was partially sponsored by:  
-* Emanuele Foti
+* [GLULAB](http://www.glulab.com/)
