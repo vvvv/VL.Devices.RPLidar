@@ -7,7 +7,7 @@
     <title>VL.Devices.RPLidar</title>
     <authors>vvvv</authors>
     <projectUrl>http://vvvv.org</projectUrl>
-    <repository type="git" url="https://github.com/vvvv/VL.Devices.PRLidar.git" />
+    <repository type="git" url="https://github.com/vvvv/VL.Devices.RPLidar.git" />
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Support for RPLidar devices by Slamtec</description>
     <tags>VL</tags>
