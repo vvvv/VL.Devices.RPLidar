@@ -3,14 +3,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>VL.Devices.RPLidar</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <title>VL.Devices.RPLidar</title>
     <authors>vvvv</authors>
     <projectUrl>http://vvvv.org</projectUrl>
     <repository type="git" url="https://github.com/vvvv/VL.Devices.RPLidar.git" />
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Support for RPLidar devices by Slamtec</description>
-    <tags>VL</tags>
+    <tags>VL, lidar</tags>
     <license type="expression">LGPL-3.0-only</license>
     <icon>icon\nugeticon.png</icon>
     <readme>docs\README.md</readme>
