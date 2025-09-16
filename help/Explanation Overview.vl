@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" xmlns:r="reflection" Id="Fb82KdtkBXlMb6KeMCmoOi" LanguageVersion="2024.6.6" Version="0.128">
-  <NugetDependency Id="V5Y6NXxV8SxNelSJIhFmES" Location="VL.CoreLib" Version="2024.6.6" />
+<Document xmlns:p="property" xmlns:r="reflection" Id="Fb82KdtkBXlMb6KeMCmoOi" LanguageVersion="2025.7.0" Version="0.128">
+  <NugetDependency Id="V5Y6NXxV8SxNelSJIhFmES" Location="VL.CoreLib" Version="2025.7.0" />
   <Patch Id="EhiLWYqksx4PA1STtVIn1q">
     <Canvas Id="DRE9090862PLSlgQz8tGYb" DefaultCategory="Main" CanvasType="FullCategory">
       <!--
@@ -50,6 +50,7 @@
                   <Pin Id="VRwSHnVYcvGQIUmWPFs3ye" Name="Point B" Kind="InputPin" />
                   <Pin Id="G9Q8qpQByp4ONA4cYTesFP" Name="Paint" Kind="InputPin" />
                   <Pin Id="NJZ4b5Udg08QVAoIKcnBVW" Name="Enabled" Kind="InputPin" />
+                  <Pin Id="Kdg3yWK8fLhP1IWyjvVLBt" Name="State Output" Kind="OutputPin" IsHidden="true" />
                   <Pin Id="TGM24RloLuBOsSCF7L48v6" Name="Output" Kind="OutputPin" />
                 </Node>
               </Patch>
@@ -129,11 +130,6 @@
             <Pin Id="NZiURgJ7DNkPdBlZNsPVYZ" Name="Input" Kind="InputPin" />
             <Pin Id="NSjStEVwJvtMddCqEbQyey" Name="Output" Kind="OutputPin" />
           </Patch>
-          <!--
-
-    ************************  ************************
-
--->
           <ProcessDefinition Id="QWEk9meoonWOszDkvFuvsk">
             <Fragment Id="Kg8dlM7WOocLap1hYdckiv" Patch="RUwhHP74vRiQO9pWhE8p50" Enabled="true" />
             <Fragment Id="Jn5BRCuqBuUNAhgfQSUZMQ" Patch="TPeZ19ZjvQSObrxO5ddg65" Enabled="true" />
@@ -199,17 +195,20 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Node Bounds="167,629,125,19" Id="GblfBCXvMbcOLJvJXQiEfk">
+          <Node Bounds="167,629,145,19" Id="GblfBCXvMbcOLJvJXQiEfk">
             <p:NodeReference LastCategoryFullName="Graphics.Skia" LastDependency="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
             </p:NodeReference>
+            <Pin Id="EjOusmlA2cdMmVkEAES3UR" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="TtZwAkgB6L6POCKCVeBp0T" Name="Bounds" Kind="InputPin" DefaultValue="1033, 58, 865, 751" IsHidden="true" />
             <Pin Id="E4T12eGHLfyM8JKHktXwh2" Name="Save Bounds" Kind="InputPin" IsHidden="true" />
             <Pin Id="OtdWdAyA5IQPkiAnqvkqGy" Name="Bound to Document" Kind="InputPin" IsHidden="true" />
-            <Pin Id="EjOusmlA2cdMmVkEAES3UR" Name="Node Context" Kind="InputPin" IsHidden="true" />
             <Pin Id="LJqrArITz7wO6V6NxWjNwe" Name="Dialog If Document Changed" Kind="InputPin" IsHidden="true" />
+            <Pin Id="QE5cKwJtYRfNc4Kyi73r82" Name="Always On Top" Kind="InputPin" IsHidden="true" />
+            <Pin Id="AbMshktgmuDQcqptXrcvUB" Name="Extend Into Title Bar" Kind="InputPin" IsHidden="true" />
             <Pin Id="Ios6m2PfTeEPj0lM3z2HIu" Name="Input" Kind="InputPin" />
+            <Pin Id="JMLf2CdEk64MblsrEhNsNi" Name="Title" Kind="InputPin" />
             <Pin Id="I01u14EXDB7MedsaLVi0Qn" Name="Color" Kind="InputPin" />
             <Pin Id="JJn5f8YNQ2cPWilmVC2qmA" Name="Clear" Kind="InputPin" />
             <Pin Id="EKVO6edjlmFLsllWmc7GqG" Name="Space" Kind="InputPin" />
@@ -316,6 +315,19 @@
             <Pin Id="QdQRbBtMM73NO8nrKaW2Y1" Name="Input" Kind="InputPin" />
             <Pin Id="IocP47rRYK4NZCJyHecDKu" Name="Output" Kind="OutputPin" />
           </Node>
+          <Node Bounds="166,470,65,19" Id="DJdkci9CEfwPXVU7xJGN2h">
+            <p:NodeReference LastCategoryFullName="Reactive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="HoldLatest" />
+            </p:NodeReference>
+            <Pin Id="Ix4i5CNArTvPGyEJnnf8Jy" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="FA74K5zCnhoNblug6sSMMc" Name="Initial Result" Kind="InputPin" IsHidden="true" />
+            <Pin Id="P7PzenWhBb9M0Q935bWj5H" Name="Async Notifications" Kind="InputPin" />
+            <Pin Id="OTxhjfvuqPgO24WUyZVgL8" Name="Reset" Kind="InputPin" />
+            <Pin Id="RW2VW8uZkt2PhYcuRjRybw" Name="Output" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="I0M76sUDRSCPEZquiPWiUx" Name="Value" Kind="OutputPin" />
+            <Pin Id="CNnFJ9F5ZZwNRBi4W62kHO" Name="On Data" Kind="OutputPin" />
+          </Node>
         </Canvas>
         <Patch Id="VQ03JHOiNJ2MKwdCwZ2kEg" Name="Create" />
         <Patch Id="VUhWUKG80d4QcoVSLYgxc4" Name="Update" />
@@ -333,11 +345,12 @@
         <Link Id="GHtr1qMbkBYPKXsMrRKIVb" Ids="RpI5Nqzc4KpNqeO1pTdS65,MIVWFI9mR6dNakpNf0RO7N" />
         <Link Id="MJ2PGGGG192MvYGZKFheoI" Ids="Cifs31j52cmNqQHf7Patp3,MoVcbYVV61gLI6ILDjJfWL" />
         <Link Id="ARvIHY7YGjFMxaDOIZAVeD" Ids="Tq5h8sRX99wPj7vOP2uRwy,MUoKu5i2eMePEIZRMRbJXP" />
-        <Link Id="JQV14yLxxM5LYEAlvq5AV3" Ids="BUbMAdkcFi7QWlEn6gWKa0,QdQRbBtMM73NO8nrKaW2Y1" />
         <Link Id="HPaSWC7zKwtOvgYD2aueAi" Ids="IocP47rRYK4NZCJyHecDKu,BNwJhyuJ13GN458vcknN4m" />
+        <Link Id="JmkEP5zwH5JOaJdzhEp7Gd" Ids="BUbMAdkcFi7QWlEn6gWKa0,P7PzenWhBb9M0Q935bWj5H" />
+        <Link Id="CDTAWKggfGaLSpkIlbLn1i" Ids="I0M76sUDRSCPEZquiPWiUx,QdQRbBtMM73NO8nrKaW2Y1" />
       </Patch>
     </Node>
   </Patch>
   <NugetDependency Id="Vww2yCurqPxLxo6VVSHnYJ" Location="VL.Devices.RPLidar" Version="0.0.0" />
-  <NugetDependency Id="BqT2EqCcb1IQSqUYFc1NNw" Location="VL.Skia" Version="2024.6.6" />
+  <NugetDependency Id="BqT2EqCcb1IQSqUYFc1NNw" Location="VL.Skia" Version="2025.7.0" />
 </Document>

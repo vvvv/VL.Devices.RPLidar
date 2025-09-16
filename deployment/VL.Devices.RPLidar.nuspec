@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
     <id>VL.Devices.RPLidar</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <title>VL.Devices.RPLidar</title>
     <authors>vvvv</authors>
     <projectUrl>http://vvvv.org</projectUrl>
