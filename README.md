@@ -2,10 +2,13 @@
 
 For using RPLIDAR devices by [Slamtec](http://slamtec.com).  
 - List of potentially [supported devices](https://github.com/slamtec/rplidar_sdk?tab=readme-ov-file#supported-platforms)
-- Tested to work with [RPLidar A1](https://www.slamtec.com/en/Lidar/A1) and [RPLidar A2](https://www.slamtec.com/en/Lidar/A2) model A2M12
+- Tested to work with the following models: 
+  - [RPLidar A1](https://www.slamtec.com/en/lidar/a1)
+  - [RPLidar A2](https://www.slamtec.com/en/lidar/a2) model A2M12
+  - [RPLidar C1](https://www.slamtec.com/en/c1)
 - As of now defaults to the "standard" scan mode and does not support any of the "express" scan modes
 
-For use with vvvv, the visual live-programming environment for .NET: http://visualprogramming.net
+For use with vvvv, the visual live-programming environment for .NET: http://vvvv.org
 
 ## Getting started
 - When connecting via USB, install [CP210x USB to UART Bridge](https://www.silabs.com/documents/public/software/CP210x_Universal_Windows_Driver.zip) 
