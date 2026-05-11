@@ -6,7 +6,6 @@ For using RPLIDAR devices by [Slamtec](http://slamtec.com).
   - [RPLidar A1](https://www.slamtec.com/en/lidar/a1)
   - [RPLidar A2](https://www.slamtec.com/en/lidar/a2) model A2M12
   - [RPLidar C1](https://www.slamtec.com/en/c1)
-- As of now defaults to the "standard" scan mode and does not support any of the "express" scan modes
 
 For use with vvvv, the visual live-programming environment for .NET: http://vvvv.org
 
