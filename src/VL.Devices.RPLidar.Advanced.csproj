@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <BaseOutputPath>..\lib\</BaseOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="VL.Core" Version="$(VLVersion)" />
+    <PackageReference Include="RPLidar4Net.Core" Version="0.3.0" />
+    <PackageReference Include="RPLidar4Net.IO" Version="0.5.0" />
+    <PackageReference Include="RPLidar4Net.Api" Version="0.5.0" />
+  </ItemGroup>
+</Project>
