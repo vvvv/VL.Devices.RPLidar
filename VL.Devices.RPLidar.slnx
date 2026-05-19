@@ -4,8 +4,12 @@
     <File Path=".gitignore" />
     <File Path="Directory.Packages.props" />
   </Folder>
+  <Folder Name="/.workspace/.github/" />
   <Folder Name="/.workspace/.github/workflows/">
-    <File Path="main.yml" />
+    <File Path=".github/workflows/main.yml" />
+  </Folder>
+  <Folder Name="/.workspace/deployment/">
+    <File Path="deployment/VL.Devices.RPLidar.nuspec" />
   </Folder>
   <Project Path="src/VL.Devices.RPLidar.Advanced.csproj" />
 </Solution>
