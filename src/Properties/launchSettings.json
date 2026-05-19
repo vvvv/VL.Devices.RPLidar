@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "VL.Devices.RPLidar.Advanced": {
+      "commandName": "Project"
+    },
+    "dev/antokhio": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Program Files\\vvvv\\vvvv_gamma_7.1-win-x64\\vvvv.exe",
+      "commandLineArgs": " --allow-multiple --package-repositories ..\\..\\; --editable-packages VL.Devices.RPLidar*;",
+      "workingDirectory": "$(ProjectDir)"
+    }
+  }
+}

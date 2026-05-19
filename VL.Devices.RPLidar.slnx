@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/.workspace/">
+    <File Path=".gitattributes" />
+    <File Path=".gitignore" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Folder Name="/.workspace/.github/workflows/">
+    <File Path="main.yml" />
+  </Folder>
+  <Project Path="src/VL.Devices.RPLidar.Advanced.csproj" />
+</Solution>
